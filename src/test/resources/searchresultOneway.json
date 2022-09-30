@@ -1,0 +1,942 @@
+[
+    {
+      "type": "flight-offer",
+      "id": "1",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2020-10-20",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT50M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "OSL",
+                "at": "2020-11-02T10:50:00"
+              },
+              "arrival": {
+                "iataCode": "BGO",
+                "at": "2020-11-02T11:40:00"
+              },
+              "carrierCode": "SK",
+              "number": "257",
+              "aircraft": {
+                "code": "738"
+              },
+              "operating": {
+                "carrierCode": "SK"
+              },
+              "duration": "PT50M",
+              "id": "1",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "NOK",
+        "total": "949.00",
+        "base": "566.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "949.00",
+        "additionalServices": [
+          {
+            "amount": "327",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "SK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "NOK",
+            "total": "949.00",
+            "base": "566.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "1",
+              "cabin": "ECONOMY",
+              "fareBasis": "THAPPY",
+              "brandedFare": "GOSMART",
+              "class": "T",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "2",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2020-10-20",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT50M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "OSL",
+                "at": "2020-11-02T12:55:00"
+              },
+              "arrival": {
+                "iataCode": "BGO",
+                "at": "2020-11-02T13:45:00"
+              },
+              "carrierCode": "SK",
+              "number": "263",
+              "aircraft": {
+                "code": "738"
+              },
+              "operating": {
+                "carrierCode": "SK"
+              },
+              "duration": "PT50M",
+              "id": "2",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "NOK",
+        "total": "949.00",
+        "base": "566.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "949.00",
+        "additionalServices": [
+          {
+            "amount": "327",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "SK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "NOK",
+            "total": "949.00",
+            "base": "566.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "2",
+              "cabin": "ECONOMY",
+              "fareBasis": "THAPPY",
+              "brandedFare": "GOSMART",
+              "class": "T",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "3",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2020-10-20",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT50M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "OSL",
+                "at": "2020-11-02T14:45:00"
+              },
+              "arrival": {
+                "iataCode": "BGO",
+                "at": "2020-11-02T15:35:00"
+              },
+              "carrierCode": "SK",
+              "number": "269",
+              "aircraft": {
+                "code": "738"
+              },
+              "operating": {
+                "carrierCode": "SK"
+              },
+              "duration": "PT50M",
+              "id": "3",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "NOK",
+        "total": "949.00",
+        "base": "566.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "949.00",
+        "additionalServices": [
+          {
+            "amount": "327",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "SK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "NOK",
+            "total": "949.00",
+            "base": "566.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "3",
+              "cabin": "ECONOMY",
+              "fareBasis": "THAPPY",
+              "brandedFare": "GOSMART",
+              "class": "T",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "4",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2020-10-20",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT50M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "OSL",
+                "at": "2020-11-02T15:30:00"
+              },
+              "arrival": {
+                "iataCode": "BGO",
+                "at": "2020-11-02T16:20:00"
+              },
+              "carrierCode": "SK",
+              "number": "271",
+              "aircraft": {
+                "code": "738"
+              },
+              "operating": {
+                "carrierCode": "SK"
+              },
+              "duration": "PT50M",
+              "id": "4",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "NOK",
+        "total": "949.00",
+        "base": "566.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "949.00",
+        "additionalServices": [
+          {
+            "amount": "327",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "SK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "NOK",
+            "total": "949.00",
+            "base": "566.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "4",
+              "cabin": "ECONOMY",
+              "fareBasis": "THAPPY",
+              "brandedFare": "GOSMART",
+              "class": "T",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "5",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2020-10-20",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "OSL",
+                "at": "2020-11-02T07:05:00"
+              },
+              "arrival": {
+                "iataCode": "BGO",
+                "at": "2020-11-02T08:00:00"
+              },
+              "carrierCode": "SK",
+              "number": "249",
+              "aircraft": {
+                "code": "738"
+              },
+              "operating": {
+                "carrierCode": "SK"
+              },
+              "duration": "PT55M",
+              "id": "5",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "NOK",
+        "total": "949.00",
+        "base": "566.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "949.00",
+        "additionalServices": [
+          {
+            "amount": "327",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "SK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "NOK",
+            "total": "949.00",
+            "base": "566.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "5",
+              "cabin": "ECONOMY",
+              "fareBasis": "THAPPY",
+              "brandedFare": "GOSMART",
+              "class": "T",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "6",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2020-10-20",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "OSL",
+                "at": "2020-11-02T09:15:00"
+              },
+              "arrival": {
+                "iataCode": "BGO",
+                "at": "2020-11-02T10:10:00"
+              },
+              "carrierCode": "SK",
+              "number": "255",
+              "aircraft": {
+                "code": "738"
+              },
+              "operating": {
+                "carrierCode": "SK"
+              },
+              "duration": "PT55M",
+              "id": "6",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "NOK",
+        "total": "949.00",
+        "base": "566.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "949.00",
+        "additionalServices": [
+          {
+            "amount": "327",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "SK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "NOK",
+            "total": "949.00",
+            "base": "566.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "6",
+              "cabin": "ECONOMY",
+              "fareBasis": "THAPPY",
+              "brandedFare": "GOSMART",
+              "class": "T",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "7",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2020-10-20",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "OSL",
+                "at": "2020-11-02T13:35:00"
+              },
+              "arrival": {
+                "iataCode": "BGO",
+                "at": "2020-11-02T14:30:00"
+              },
+              "carrierCode": "SK",
+              "number": "267",
+              "aircraft": {
+                "code": "738"
+              },
+              "operating": {
+                "carrierCode": "SK"
+              },
+              "duration": "PT55M",
+              "id": "7",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "NOK",
+        "total": "949.00",
+        "base": "566.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "949.00",
+        "additionalServices": [
+          {
+            "amount": "327",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "SK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "NOK",
+            "total": "949.00",
+            "base": "566.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "7",
+              "cabin": "ECONOMY",
+              "fareBasis": "THAPPY",
+              "brandedFare": "GOSMART",
+              "class": "T",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "8",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2020-10-20",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "OSL",
+                "at": "2020-11-02T17:45:00"
+              },
+              "arrival": {
+                "iataCode": "BGO",
+                "at": "2020-11-02T18:40:00"
+              },
+              "carrierCode": "SK",
+              "number": "281",
+              "aircraft": {
+                "code": "738"
+              },
+              "operating": {
+                "carrierCode": "SK"
+              },
+              "duration": "PT55M",
+              "id": "8",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "NOK",
+        "total": "949.00",
+        "base": "566.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "949.00",
+        "additionalServices": [
+          {
+            "amount": "327",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "SK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "NOK",
+            "total": "949.00",
+            "base": "566.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "8",
+              "cabin": "ECONOMY",
+              "fareBasis": "THAPPY",
+              "brandedFare": "GOSMART",
+              "class": "T",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "9",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2020-10-20",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "OSL",
+                "at": "2020-11-02T18:35:00"
+              },
+              "arrival": {
+                "iataCode": "BGO",
+                "at": "2020-11-02T19:30:00"
+              },
+              "carrierCode": "SK",
+              "number": "283",
+              "aircraft": {
+                "code": "738"
+              },
+              "operating": {
+                "carrierCode": "SK"
+              },
+              "duration": "PT55M",
+              "id": "9",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "NOK",
+        "total": "949.00",
+        "base": "566.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "949.00",
+        "additionalServices": [
+          {
+            "amount": "327",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "SK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "NOK",
+            "total": "949.00",
+            "base": "566.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "9",
+              "cabin": "ECONOMY",
+              "fareBasis": "THAPPY",
+              "brandedFare": "GOSMART",
+              "class": "T",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "10",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2020-10-20",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "OSL",
+                "at": "2020-11-02T19:35:00"
+              },
+              "arrival": {
+                "iataCode": "BGO",
+                "at": "2020-11-02T20:30:00"
+              },
+              "carrierCode": "SK",
+              "number": "287",
+              "aircraft": {
+                "code": "738"
+              },
+              "operating": {
+                "carrierCode": "SK"
+              },
+              "duration": "PT55M",
+              "id": "10",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "NOK",
+        "total": "949.00",
+        "base": "566.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "949.00",
+        "additionalServices": [
+          {
+            "amount": "327",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "SK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "NOK",
+            "total": "949.00",
+            "base": "566.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "10",
+              "cabin": "ECONOMY",
+              "fareBasis": "THAPPY",
+              "brandedFare": "GOSMART",
+              "class": "T",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]

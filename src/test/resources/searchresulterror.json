@@ -1,0 +1,4 @@
+{
+  "status": 400,
+  "message": "Departure date should be after today's date."
+}
